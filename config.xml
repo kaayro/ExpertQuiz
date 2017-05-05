@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+
+        xmlns:gap   = "http://phonegap.com/ns/1.0"
+        id          = "com.igitsoft.expertquiz"
+        version     = "0.0.1"
+        versionCode = "0.0.1" >
+
+        <!-- versionCode is optional and Android only -->
+
+        <preference name="phonegap-version" value="cli-6.5.0" />
+		<preference name="orientation" value="portrait" />
+		<preference name="fullscreen" value="true" />
+		<preference name="android-build-tool" value="gradle" />
+
+        <name>ExpertQuiz</name>
+
+        <description>
+            Demuestra que eres un experto, selecciona los temas en los que crees serlo y responde todas las preguntas. 
+        </description>
+
+        <author href="http://igitweb.com/apps" email="info@igitweb.com">
+            iGitApps
+        </author>
+		<icon src="img/isoWeb.png" />
+		
+		<platform name="android" />
+		
+		
+		<plugin name="cordova-plugin-whitelist" source="npm" />
+		
+		<allow-navigation href="http://*/*" />
+		<allow-navigation href="https://*/*" />
+		<allow-navigation href="data:*" />
+		
+		<access origin="*" />
+		
+    </widget>
